@@ -5,6 +5,9 @@ This is achieved by
 - IOT technology that automatically loads activity into a central database
 - IOT reporting that automatically generates reports / views for different purposes
 
+
+![Pflegeheimjournal](software/thingsboard/pflegeheimjournal.png)
+
 The initial scope addresses following activities:
 - Wake up support ( yes / no )
 - Measurement of blood pressure (Pulse, Systole, Diastole )
