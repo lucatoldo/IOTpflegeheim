@@ -27,8 +27,7 @@ The initial scope addresses following activities:
 ## Software
 - Embedded Device software is implemented in C++ using Arduino IDE, has the role of collecting the data from the sensor, 
   digitally sign it, generate a payload in the FHIR format, send it to the IOT Gateway.
-- IOT Edge software
-- IOT backend with visualisation and advanced analytics
+- IOT Thingsboard.io 
 
 ## History
 This work started by participating at the hackaton #carevscorona and the problem statement has been given by Markus, an experienced Pflegeheimleiter.
