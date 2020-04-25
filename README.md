@@ -5,25 +5,21 @@ This is achieved by
 - IOT technology that automatically loads activity into a central database
 - IOT reporting that automatically generates reports / views for different purposes
 
-The initial implementation covers:
-- wake up from bed
-- measurement of blood pressure
-- morning hygienic support
-- breakfast
-  - quality of the delivery
-  - amount of food taken
+The initial scope addresses following activities:
+- Wake up support ( yes / no )
+- Measurement of blood pressure (Pulse, Systole, Diastole )
+- Morning hygienic support ( yes / no )
+- Breakfast
+  - Quality       ( Temperature of the food when delivered)
+  - Amount consumed (Ampelverfahren) 
 
 # Components
 
 ## Hardware
 
-- IOT Button (ESP8266 based) 
-- IOT Thermometer
-- 
-- IOT Gateway (Raspberry PI)
-
-
-
+- IOT Button (ESP8266 based)  used for registering suppport tasks and the Amount of breakfast consumed
+- IOT Thermometer for collecting and registering the Breakfast quality
+- IOT Gateway (Raspberry PI) is used to collect the information from the devices and transmit it to the central database. This is needed in order to ensure that no message went lost in case of intermittent storage. Finally, it provides an on-site visualisation capability in order to address lack of internet access.
 
 ## History
 This work started by participating at the hackaton #carevscorona and the problem statement has been given by Markus, an experienced Pflegeheimleiter.
