@@ -19,7 +19,13 @@ The initial scope addresses following activities:
 
 - IOT Button (ESP8266 based)  used for registering suppport tasks and the Amount of breakfast consumed
 - IOT Thermometer for collecting and registering the Breakfast quality
-- IOT Gateway (Raspberry PI) is used to collect the information from the devices and transmit it to the central database. This is needed in order to ensure that no message went lost in case of intermittent storage. Finally, it provides an on-site visualisation capability in order to address lack of internet access.
+- IOT Edge (Raspberry PI) is used to collect the information from the devices and transmit it to the central database. This is needed in order to ensure that no message went lost in case of intermittent storage. Finally, it provides an on-site visualisation capability in order to address lack of internet access.
+
+## Software
+- Embedded Device software is implemented in C++ using Arduino IDE, has the role of collecting the data from the sensor, 
+  digitally sign it, generate a payload in the FHIR format, send it to the IOT Gateway.
+- IOT Edge software
+- IOT backend with visualisation and advanced analytics
 
 ## History
 This work started by participating at the hackaton #carevscorona and the problem statement has been given by Markus, an experienced Pflegeheimleiter.
