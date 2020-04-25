@@ -16,9 +16,9 @@ The initial scope addresses following activities:
 # Components
 
 ## Hardware
-
 - IOT Button (ESP8266 based)  used for registering suppport tasks and the Amount of breakfast consumed
 - IOT Thermometer for collecting and registering the Breakfast quality
+- IOT Blood Pressure device
 - IOT Edge (Raspberry PI) is used to collect the information from the devices and transmit it to the central database. This is needed in order to ensure that no message went lost in case of intermittent storage. Finally, it provides an on-site visualisation capability in order to address lack of internet access.
 
 ## Software
