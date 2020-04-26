@@ -31,4 +31,6 @@ The initial scope addresses following activities:
 
 ## History
 This work started by participating at the hackaton #CAREhacktCORONA,  the problem statement has been given by Markus, an experienced Pflegeheimleiter. The vision behind this work has been published as https://devpost.com/software/pflegeheim-burokratie-mehr-zeit-mit-bewohner-innen in the  hackaton https://carehacktcorona.devpost.com #CAREhacktCORONA.
-
+This project won the prize in the following categories:
+- Pflege  (collaboration with ELFIN Care)
+- Startup / Business model (partnership with Startup BW)
