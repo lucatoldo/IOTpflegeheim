@@ -30,5 +30,5 @@ The initial scope addresses following activities:
 - IOT Thingsboard.io 
 
 ## History
-This work started by participating at the hackaton #carevscorona and the problem statement has been given by Markus, an experienced Pflegeheimleiter.
+This work started by participating at the hackaton #CAREhacktCORONA,  the problem statement has been given by Markus, an experienced Pflegeheimleiter. The vision behind this work has been published as https://devpost.com/software/pflegeheim-burokratie-mehr-zeit-mit-bewohner-innen in the  hackaton https://carehacktcorona.devpost.com #CAREhacktCORONA.
 
